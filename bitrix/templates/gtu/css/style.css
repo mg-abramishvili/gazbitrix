@@ -492,6 +492,52 @@ header:before {
     width: 75%;
 }
 
+.videos .video-list-item {
+    margin-bottom: 40px;
+}
+.videos .video-list-item a {
+    background-color: rgba(0,123,193,.05);
+    padding: 25px;
+    border-radius: 10px;
+    display: block;
+}
+.videos .video-list-item span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+}
+.videos .title-head {
+    margin-top: 0;
+    font-size: 26px;
+    margin-bottom: 0;
+    line-height: 1.35;
+}
+.videos .video-list-item-image {
+    height: 220px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 25px;
+    position: relative;
+}
+.videos .video-list-item-image svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    color: #007bc1;
+    border: 2px solid #007bc1;
+    border-radius: 100%;
+    display: block;
+    z-index: 1;
+    box-shadow: 0 0 20px rgba(255,255,255,1);
+
+}
+
 
 .gazeta {
     display: flex;
