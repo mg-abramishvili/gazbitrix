@@ -65,7 +65,7 @@ main {
 }
 
 header {
-    height: 250px;
+    height: 280px;
     position: relative;
     background-position: 50% 69%;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ header:before {
     justify-content: space-between;
     z-index: 20;
     position: relative;
-    padding-top: 25px;
+    padding-top: 45px;
 }
 @media (min-width: 1200px) {
     .header-inner {
@@ -116,6 +116,9 @@ header:before {
 .header-logo a {
     display: block;
     width: 150px;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
 }
 .header-logo a img {
     width: 100%;

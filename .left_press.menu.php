@@ -2,7 +2,7 @@
 $aMenuLinks = Array(
 	Array(
 		"Новости", 
-		"/", 
+		"/press/novosti/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -16,7 +16,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Газета", 
-		"/", 
+		"/press/gazeta/", 
 		Array(), 
 		Array(), 
 		"" 

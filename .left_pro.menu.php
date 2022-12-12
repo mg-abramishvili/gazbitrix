@@ -2,14 +2,14 @@
 $aMenuLinks = Array(
 	Array(
 		"Объекты", 
-		"/", 
+		"/proizvodstvo/objekty/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Производственная безопасность", 
-		"/", 
+		"/proizvodstvo/bezopasnost/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -30,7 +30,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Инновации", 
-		"/", 
+		"/proizvodstvo/innovatsii/", 
 		Array(), 
 		Array(), 
 		"" 
