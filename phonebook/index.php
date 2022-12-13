@@ -13,13 +13,10 @@ $APPLICATION->SetTitle("Title");
                 <a href="#">Подразделения</a>
             </li>
             <li>
-                <a href="#">Организации</a>
+                <a href="#">Телефон</a>
             </li>
             <li>
                 <a href="#">Совет директоров</a>
-            </li>
-            <li>
-                <a href="#">Справки</a>
             </li>
         </ul>
         <div class="search-form">

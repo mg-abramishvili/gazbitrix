@@ -3,7 +3,19 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Title");
 ?>
 
-<h5 class="title-head mt-0">Новости</h5>
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <h5 class="title-head mt-0">Новости</h5>
+    </div>
+    <div class="col-12 col-lg-6">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Поиск по новостям">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary" type="button">Найти</button>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="news">
         <div class="news-list-item">
             <a href="#">
