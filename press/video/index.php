@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Title");
 ?>
 
-<h5 class="title-head mt-0">Видео</h5>
+<h5 class="title-head mt-0">Видеогалерея</h5>
     <div class="videos">
         <div class="row">
             <div class="col-12 col-lg-6">

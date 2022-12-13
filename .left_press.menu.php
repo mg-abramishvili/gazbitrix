@@ -22,7 +22,7 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Видео", 
+		"Видеогалерея", 
 		"/press/video/", 
 		Array(), 
 		Array(), 
