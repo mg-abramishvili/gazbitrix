@@ -449,6 +449,14 @@ header:before {
     padding-bottom: 1px;
 }
 
+.index-banners-item {
+    width: calc(33.3333% - 20px);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+
 .news .news-list-item {
     margin-bottom: 40px;
 }

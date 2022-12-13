@@ -73,15 +73,9 @@ $APPLICATION->SetTitle("Title");
     </div>
 
     <div class="index-banners" style="display:flex; justify-content: space-between; margin-bottom: 80px">
-        <div class="index-banner-index" style="background-color: #ddd; height: 200px; width: 31%; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; color: #555; font-size: 24px;">
-            <span>Место для баннера</span>
-        </div>
-        <div class="index-banner-index" style="background-color: #ddd; height: 200px; width: 31%; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; color: #555; font-size: 24px;">
-            <span>Место для баннера</span>
-        </div>
-        <div class="index-banner-index" style="background-color: #ddd; height: 200px; width: 31%; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; color: #555; font-size: 24px;">
-            <span>Место для баннера</span>
-        </div>
+        <div class="index-banners-item" style="background-image: url(/bitrix/templates/gtu/img/safety.png)"></div>
+        <div class="index-banners-item" style="background-image: url(/bitrix/templates/gtu/img/rb.png)"></div>
+        <div class="index-banners-item" style="background-image: url(/bitrix/templates/gtu/img/koll.png)"></div>
     </div>
 
     <div class="index-poll">
