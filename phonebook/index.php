@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("Title");
                 <a href="#">Телефон</a>
             </li>
             <li>
-                <a href="#">Совет директоров</a>
+                <a href="#">Руководство</a>
             </li>
         </ul>
         <div class="search-form">
