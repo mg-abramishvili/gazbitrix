@@ -17,6 +17,11 @@
                 menu.classList.add('active')
             }
         }
+		
+		new VenoBox({
+			selector: ".venobox_gallery",
+			numeration: true,
+		})
     </script>
 </body>
 </html>
