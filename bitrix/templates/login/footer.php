@@ -7,7 +7,7 @@
 								<span id="language-arrow" class="language-flag"><span class="arrow"></span></span>
 							</div>
 						<?endif?>
-						<?=GetMessage("BITRIX24_COPYRIGHT_B24", array("#CURRENT_YEAR#" => date("Y")))?>
+						<?//=GetMessage("BITRIX24_COPYRIGHT_B24", array("#CURRENT_YEAR#" => date("Y")))?>
 					</div>
 				</div>
 			</div>

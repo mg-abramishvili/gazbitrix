@@ -62,12 +62,12 @@ if ($arResult['ALLOW_QRCODE_AUTH'])
 
 					<?php if ($arResult['ALLOW_QRCODE_AUTH']): ?>
 
-					<div class="login-wrapper-qr">
+					<!-- <div class="login-wrapper-qr">
 						<div class="login-wrapper-qr-link" data-role="login-wrapper-qr-link">
 							<div class="login-wrapper-qr-icon"></div>
 							<div class="login-wrapper-qr-text"><?=GetMessage("AUTH_AUTHORIZE_BY_QR")?></div>
 						</div>
-					</div>
+					</div> -->
 
 					<?php endif ?>
 
@@ -97,7 +97,7 @@ if ($arResult['ALLOW_QRCODE_AUTH'])
 		</div>
 		<div class="log-popup-footer <?if($arResult["AUTH_SERVICES"]):?>--auth<?endif?>">
 			<input type="submit" value="<?=GetMessage("AUTH_AUTHORIZE")?>" class="login-btn" onclick="BX.addClass(this, 'wait');"/>
-			<a class="login-link-forgot-pass" href="<?=$arResult["AUTH_FORGOT_PASSWORD_URL"]?>"><?=GetMessage("AUTH_FORGOT_PASSWORD_2")?></a>
+			<!-- <a class="login-link-forgot-pass" href="<?=$arResult["AUTH_FORGOT_PASSWORD_URL"]?>"><?=GetMessage("AUTH_FORGOT_PASSWORD_2")?></a> -->
 		</div>
 	</form>
 </div>
